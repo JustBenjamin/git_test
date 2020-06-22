@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+h2 {
+    color: #24a7e1;
+    margin-left: 15px;
+    font-family: avenir next lt pro,sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 5px;
+}
+
+.column {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+}
